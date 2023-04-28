@@ -1,9 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "bootstrap/dist/js/bootstrap";
 
 function NavbarComp() {
+  const navlinksArray = [
+    { id: 1, href: "#", text: "Home" },
+    { id: 2, href: "#", text: "Buy" },
+    { id: 3, href: "#", text: "Sell" },
+    { id: 4, href: "#", text: "Services" },
+    { id: 5, href: "#", text: "Blog" },
+    { id: 6, href: "#", text: "About" },
+    { id: 7, href: "#", text: "Contact" },
+    { id: 8, href: "#", text: "Login" },
+  ];
   return (
     <nav className="navbar navbar-expand-sm">
       <div className="container-fluid">
@@ -20,72 +29,23 @@ function NavbarComp() {
         </button>
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Buy
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Sell
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-              >
-                Services
-              </a>
-              <ul className="dropdown-menu underlinks">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Sell Items
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Buy Items
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Submit a Bid
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Blog
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Login
-              </a>
-            </li>
+            {navlinksArray.map(({ href, text, id }) => (
+              <NavLink href={href} text={text} key={id} />
+            ))}
           </ul>
         </div>
       </div>
     </nav>
+  );
+}
+
+function NavLink({ href, text, id }) {
+  return (
+    <li className="nav-item">
+      <a className="nav-link" href={href}>
+        {text}
+      </a>
+    </li>
   );
 }
 

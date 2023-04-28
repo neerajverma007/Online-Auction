@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import "bootstrap/dist/js/bootstrap";
 
 const Signin = () => {
   let [authMode, setAuthMode] = useState("Signin");
@@ -14,7 +13,7 @@ const Signin = () => {
       <div className="Auth-form-container">
         <form className="Auth-form">
           <div className="Auth-form-content">
-            <h3 className="Auth-form-title">Sign In</h3>
+            <h3 className="Auth-form-title">Login</h3>
             <div className="text-center Auth-form-text">
               <p>
                 Not registered yet?{" "}
@@ -55,7 +54,7 @@ const Signin = () => {
     <div className="Auth-form-container">
       <form className="Auth-form">
         <div className="Auth-form-content">
-          <h3 className="Auth-form-title">Sign In</h3>
+          <h3 className="Auth-form-title">Sign Up</h3>
           <div className="text-center Auth-form-text">
             Already registered? <span onClick={changeAuthMode}>Sign In</span>
           </div>
@@ -104,9 +103,6 @@ const Signin = () => {
               Submit
             </button>
           </div>
-          <p className="forgotlink mt-3">
-            <a href="#">Forgot Password?</a>
-          </p>
         </div>
       </form>
     </div>

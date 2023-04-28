@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import "bootstrap/dist/js/bootstrap";
 
 function Heros() {
   return (
@@ -12,9 +11,11 @@ function Heros() {
       <div className="hero-wrapper-content">
         <h1>The Best Place to Buy and Sell.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nihil.
+          Get ready for the ultimate shopping experience. At iGRAVEL AUCTION, we
+          offer a wide variety of products that will exceed your expectations.
+          Start bidding now and see for yourself!
         </p>
-        <a href="#" class="btn Registerbtn" role="button">
+        <a href="#" className="btn Registerbtn" role="button">
           Register
         </a>
       </div>
