@@ -9,14 +9,13 @@ function Heros() {
         <img src="images/bg_one.jpg" />
       </div>
       <div className="hero-wrapper-content">
-        <h1>The Best Place to Buy and Sell.</h1>
+        <h1>Find Your Next Deal!</h1>
         <p>
-          Get ready for the ultimate shopping experience. At iGRAVEL AUCTION, we
-          offer a wide variety of products that will exceed your expectations.
-          Start bidding now and see for yourself!
+          Online Auction is where everyone goes to shop, sell,and give, while
+          discovering variety and affordability.
         </p>
         <a href="#" className="btn Registerbtn" role="button">
-          Register
+          Get Started
         </a>
       </div>
     </div>

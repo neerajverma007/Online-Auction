@@ -37,15 +37,15 @@ nav.navbar.navbar-expand-sm {
   z-index: 10;
 }
 
-a.nav-link,
+#collapsibleNavbar a.nav-link,
 a.navbar-brand {
   color: white;
   font-size: 18px;
 }
 
-a.nav-link:hover,
-a.nav-link:active,
-a.nav-link:focus {
+#collapsibleNavbar a.nav-link:hover,
+#collapsibleNavbar a.nav-link:active,
+#collapsibleNavbar a.nav-link:focus {
   color: #E21818;
 }
 
@@ -100,14 +100,14 @@ a.dropdown-item {
 
 .hero-wrapper-content {
   position: absolute;
-  top: 35%;
+  top: 30%;
   color: white;
   left: 10%;
 }
 
 .hero-wrapper-content h1 {
   max-width: 400px;
-  font-size: 48;
+  font-size: 60px !important;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -122,9 +122,9 @@ a.dropdown-item {
 .btn.Registerbtn {
   background-color: #E21818;
   color: white;
-  padding: 10px 30px;
+  padding: 13px 30px;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 25px;
   font-size: 18px;
   font-weight: 500;
   margin: 10px 0px;
@@ -177,7 +177,7 @@ a.dropdown-item {
 }
 
 .Auth-form-content {
-  padding: 0px 40px;
+  padding: 0px 30px;
 }
 
 .text-center.Auth-form-text span {
@@ -191,8 +191,7 @@ a.dropdown-item {
 
 .Auth-form-title {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 26px;
   color: white;
   font-weight: 800;
 }
@@ -238,6 +237,21 @@ a.dropdown-item {
   box-shadow: none;
   outline: none;
   border: none;
+}
+
+.form-text p {
+  color: white;
+  margin: 0px;
+  text-align: justify;
+}
+
+.form-text p a {
+  text-decoration: none;
+  color: #2192FF;
+}
+
+.form-text p a:hover {
+  color: #0d7be3;
 }
 
 /* Signin Section CSS END */
@@ -364,3 +378,163 @@ button.Bidbtn:visited {
 }
 
 /* CardSection Section CSS END */
+
+
+/* My Account css Start*/
+.leftMenu.sticky-menu {
+  position: sticky;
+  top: 100px;
+}
+
+.Breadcrumb {
+  margin: 50px 0px;
+}
+
+.breadcrumb a {
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.breadcrumb a:hover {
+  color: #E21818;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: none;
+}
+
+.leftMenu {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  color: black;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+.leftMenu a.nav-link {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.leftMenu li.nav-item.active {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.leftMenu li.nav-item:hover {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.leftMenu h4.userName {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.leftMenu span {
+  color: #988c8c;
+  font-weight: 500;
+}
+
+.leftMenu ul.nav.flex-column {
+  padding-top: 50px;
+}
+
+.mybidSection,
+.mybidSection-content {
+  padding: 40px 30px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+}
+
+.mybidSection-content {
+  margin-top: 30px;
+}
+
+.mybidSection h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mybidSection li.nav-item {
+  padding-right: 20px;
+}
+
+.mybidSection a.nav-link {
+  color: black;
+  font-size: 20px;
+  background-color: #0000000f !important;
+  padding: 15px 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mybidSection a.nav-link:hover {
+  background-color: #00000017 !important;
+}
+
+.mybidSection a.nav-link.active {
+  background-color: #E21818 !important;
+  color: white !important;
+}
+
+.mybidSection ul.nav.nav-tabs {
+  border: none;
+}
+
+.mybidSection-content img.card-img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+}
+
+p#Timer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #BD2000;
+}
+
+/* My Account css end*/
+
+
+/* Winning Bid CSS Start */
+
+.winbidSection .input-group {
+  display: inline-block;
+  position: relative;
+}
+
+.form-outline input {
+  padding: 10px 50px 10px 20px;
+  border-radius: 20px;
+}
+
+.form-outline input:focus,
+.form-outline input:hover {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #E21818;
+}
+
+.winbidSection .input-group .btn.btn-primary {
+  border-radius: 20px;
+  background-color: #E21818;
+  position: absolute;
+  border: none;
+  top: 0;
+  right: 0;
+  padding: 11px 20px;
+}
+
+/* Winning Bid CSS END */

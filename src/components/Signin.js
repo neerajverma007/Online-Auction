@@ -38,7 +38,7 @@ const Signin = () => {
             </div>
             <div className="d-grid mt-4 submitbtn">
               <button type="submit" className="btn">
-                Submit
+                Login
               </button>
             </div>
             <p className="forgotlink mt-3">
@@ -56,7 +56,10 @@ const Signin = () => {
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign Up</h3>
           <div className="text-center Auth-form-text">
-            Already registered? <span onClick={changeAuthMode}>Sign In</span>
+            <p>
+              {" "}
+              Already registered? <span onClick={changeAuthMode}>Sign In</span>
+            </p>
           </div>
           <div className="form-group mt-3">
             <label>Full Name</label>
@@ -98,9 +101,16 @@ const Signin = () => {
               placeholder="Confirm Password"
             />
           </div>
-          <div className="d-grid mt-4 submitbtn">
+          <div className="form-text mt-3">
+            <p>
+              Your personal data will be used to support your experience
+              throughout this website, to manage access to your account, and for
+              other purposes described in our <a href="#">privacy policy.</a>
+            </p>
+          </div>
+          <div className="d-grid mt-3 submitbtn">
             <button type="submit" className="btn">
-              Submit
+              Register
             </button>
           </div>
         </div>

@@ -6,6 +6,7 @@ import Heros from "./components/Heros";
 // import Modal from "./components/Modal";
 import Signin from "./components/Signin";
 import CardStructure from "./components/CardStructure";
+import MyAccount from "./components/MyAccount";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <Modal /> */}
       <Signin />
       <CardStructure />
+      <MyAccount />
     </div>
   );
 }

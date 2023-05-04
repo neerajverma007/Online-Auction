@@ -5,12 +5,11 @@ import React from "react";
 function NavbarComp() {
   const navlinksArray = [
     { id: 1, href: "#", text: "Home" },
-    { id: 2, href: "#", text: "Buy" },
-    { id: 3, href: "#", text: "Sell" },
+    { id: 2, href: "#", text: "Auction" },
     { id: 4, href: "#", text: "Services" },
-    { id: 5, href: "#", text: "Blog" },
-    { id: 6, href: "#", text: "About" },
-    { id: 7, href: "#", text: "Contact" },
+    { id: 6, href: "#", text: "About Us" },
+    { id: 7, href: "#", text: "Contact Us" },
+    { id: 5, href: "#", text: "My Account" },
     { id: 8, href: "#", text: "Login" },
   ];
   return (
