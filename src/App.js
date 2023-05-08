@@ -8,6 +8,7 @@ import Signin from "./components/Signin";
 import CardStructure from "./components/CardStructure";
 import MyAccount from "./components/MyAccount";
 import BuyerForm from "./components/BuyerForm";
+import Contactus from "./components/Contactus";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CardStructure />
       <MyAccount />
       <BuyerForm />
+      <Contactus />
     </div>
   );
 }

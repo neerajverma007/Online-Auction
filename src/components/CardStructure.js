@@ -29,13 +29,13 @@ const CardStructure = () => {
                     up the bulk of the card's content.
                   </Card.Text>
                   <div className="Cardbidbtn">
-                    <span>250 Bids</span>
-                    <Button className="Bidbtn">Submit a Bid</Button>
+                    <span>Auction Ended</span>
+                    {/* <Button className="Bidbtn">Submit a Bid</Button> */}
                   </div>
                 </Card.Body>
-                <div className="cardRate">
+                {/* <div className="cardRate">
                   <span>&#8377;200</span>
-                </div>
+                </div> */}
               </Card>
             </Col>
             <Col className="col-lg-3 col-md-3 col-sm-6 col-12">

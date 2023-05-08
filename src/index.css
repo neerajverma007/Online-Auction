@@ -564,3 +564,65 @@ textarea#productDescription:focus {
 
 
 /* Buyer Form Bid CSS END */
+
+
+
+/* Contact Us CSS START */
+
+.Contactus-Page {
+  background-color: white !important;
+  color: black !important;
+  padding: 50px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+}
+
+.Contactus-Page h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Contactus-Page .Auth-form-content label {
+  color: black;
+}
+
+.Contactus-Page .Auth-form-content {
+  padding: 0px;
+  margin-right: 100px;
+}
+
+.Contactus-Page .contact-info {
+  padding-top: 20px;
+}
+
+li.Heading-Content {
+  padding-bottom: 30px;
+}
+
+.Contactus-Page .contact-info li.Heading h6 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.Contactus-Page .contact-info li.Heading-Content span {
+  color: #787878;
+  font-size: 20px;
+}
+
+.MapSection {
+  padding: 50px 0px 50px 0px;
+  border-radius: 20px;
+}
+
+.MapSection h4 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.MapSection iframe.gmap_iframe {
+  border-radius: 20px;
+}
+
+/* Contact Us CSS END */
