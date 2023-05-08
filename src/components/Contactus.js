@@ -21,7 +21,7 @@ function Contactus() {
               <div className="Auth-form-content">
                 <form>
                   <div className="mb-3">
-                    <label for="Full Name" className="form-label">
+                    <label htmlFor="Full Name" className="form-label">
                       Full Name
                     </label>
                     <input
@@ -33,7 +33,7 @@ function Contactus() {
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="email" className="form-label">
+                    <label htmlFor="email" className="form-label">
                       Email address
                     </label>
                     <input
@@ -45,12 +45,11 @@ function Contactus() {
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="productDescription" className="form-label">
+                    <label htmlFor="productDescription" className="form-label">
                       Message
                     </label>
                     <textarea
-                      className="form-control"
-                      id="productDescription"
+                      className="form-control productDescription"
                       rows="10"
                       cols="30"
                       placeholder="Enter product description"
@@ -100,7 +99,7 @@ function Contactus() {
           <h4 className="text-center">Get Direction</h4>
           <iframe
             className="gmap_iframe"
-            frameborder="0"
+            frameBorder="0"
             scrolling="no"
             height="500"
             width="100%"

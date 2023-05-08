@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 
 function BuyerForm() {
@@ -8,7 +9,7 @@ function BuyerForm() {
         <div className="Auth-form-content">
           <h3 className="Auth-form-title mb-4">Sell Product</h3>
           <div className="mb-3">
-            <label for="sellerName" className="form-label">
+            <label htmlFor="sellerName" className="form-label">
               Seller Name
             </label>
             <input
@@ -20,7 +21,7 @@ function BuyerForm() {
             />
           </div>
           <div className="mb-3">
-            <label for="productName" className="form-label">
+            <label htmlFor="productName" className="form-label">
               Product Name
             </label>
             <input
@@ -32,19 +33,18 @@ function BuyerForm() {
             />
           </div>
           <div className="mb-3">
-            <label for="productDescription" className="form-label">
+            <label htmlFor="productDescription" className="form-label">
               Product Description
             </label>
             <textarea
-              className="form-control"
-              id="productDescription"
+              className="form-control productDescription"
               rows="3"
               placeholder="Enter product description"
               required
             />
           </div>
           <div className="mb-3">
-            <label for="productPhoto" className="form-label">
+            <label htmlFor="productPhoto" className="form-label">
               Product Photo
             </label>
             <input
@@ -55,13 +55,14 @@ function BuyerForm() {
             />
           </div>
           <div className="mb-3">
-            <label for="reservePrice" className="form-label">
+            <label htmlFor="reservePrice" className="form-label">
               Selling Price
             </label>
             <input
               type="number"
               className="form-control"
               id="reservePrice"
+              maxlength="10"
               placeholder="Enter reserve price"
               required
             />

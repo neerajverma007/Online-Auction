@@ -58,7 +58,7 @@ const MyAccount = () => {
               <div className="rightMenu">
                 <div className="mybidSection">
                   <h4>My Bids</h4>
-                  <ul class="nav nav-tabs" role="tablist">
+                  <ul className="nav nav-tabs" role="tablist">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
@@ -392,11 +392,11 @@ const MyAccount = () => {
                           type="search"
                           id="form1"
                           placeholder="Search"
-                          class="form-control"
+                          className="form-control"
                         />
                       </div>
-                      <button type="button" class="btn btn-primary">
-                        <i class="fas fa-search"></i>
+                      <button type="button" className="btn btn-primary">
+                        <i className="fas fa-search"></i>
                       </button>
                     </div>
                   </form>

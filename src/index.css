@@ -544,7 +544,7 @@ p#Timer {
 
 /* Buyer Form Bid CSS Start */
 
-textarea#productDescription:focus {
+textarea.productDescription:focus {
   box-shadow: none;
   outline: none;
 }
@@ -624,7 +624,7 @@ li.Heading-Content {
   border-radius: 20px;
 }
 
-textarea#productDescription {
+textarea.productDescription {
   resize: none;
 }
 
