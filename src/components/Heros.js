@@ -4,7 +4,7 @@ import React from "react";
 
 function Heros() {
   return (
-    <div className="hero-wrapper">
+    <div className="hero-wrapper" id="HomePage">
       <div className="hero-wrapper-image">
         <img src="images/bg_one.jpg" />
       </div>

@@ -149,9 +149,9 @@ a.dropdown-item {
 
 /* Signin Section CSS START */
 
-.form-control:focus {
-  outline: none !important;
-  border: 1px solid #E21818 !important;
+.form-control:focus,
+.form-control:hover {
+  border: 1px solid #78787885 !important;
 }
 
 
@@ -164,12 +164,12 @@ a.dropdown-item {
 
 .Auth-form {
   width: 450px;
-  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 10px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .Auth-form-content input.form-control {
@@ -198,7 +198,7 @@ a.dropdown-item {
 .Auth-form-title {
   text-align: center;
   font-size: 26px;
-  color: white;
+  color: black;
   font-weight: 800;
 }
 
@@ -209,7 +209,7 @@ a.dropdown-item {
 .Auth-form-content label {
   font-size: 18px;
   font-weight: 400;
-  color: white;
+  color: black;
   padding: 0px 0px;
 }
 
@@ -246,7 +246,7 @@ a.dropdown-item {
 }
 
 .form-text p {
-  color: white;
+  color: black;
   margin: 0px;
   text-align: justify;
 }
@@ -254,6 +254,7 @@ a.dropdown-item {
 .form-text p a {
   text-decoration: none;
   color: #2192FF;
+  font-weight: bold;
 }
 
 .form-text p a:hover {
@@ -553,8 +554,6 @@ textarea#productDescription:focus {
 }
 
 #productPhoto::-webkit-file-upload-button {
-  background-color: #E21818;
-  color: white;
   position: absolute;
   padding: 10px;
   right: -13px;
@@ -623,6 +622,10 @@ li.Heading-Content {
 
 .MapSection iframe.gmap_iframe {
   border-radius: 20px;
+}
+
+textarea#productDescription {
+  resize: none;
 }
 
 /* Contact Us CSS END */

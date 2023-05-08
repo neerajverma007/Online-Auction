@@ -10,7 +10,7 @@ const Signin = () => {
 
   if (authMode === "Signin") {
     return (
-      <div className="Auth-form-container">
+      <div className="Auth-form-container" id="LoginPage">
         <form className="Auth-form">
           <div className="Auth-form-content">
             <h3 className="Auth-form-title">Login</h3>

@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card";
 
 const CardStructure = () => {
   return (
-    <div className="CardSection">
+    <div className="CardSection" id="AuctionPage">
       <div className="Cardinfo-Wrapper text-center">
         <span>AUCTIONS</span>
         <h4>

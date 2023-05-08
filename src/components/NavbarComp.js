@@ -4,13 +4,13 @@ import React from "react";
 
 function NavbarComp() {
   const navlinksArray = [
-    { id: 1, href: "#", text: "Home" },
-    { id: 2, href: "#", text: "Auction" },
+    { id: 1, href: "#HomePage", text: "Home" },
+    { id: 2, href: "#AuctionPage", text: "Auction" },
     { id: 4, href: "#", text: "Services" },
     { id: 6, href: "#", text: "About Us" },
-    { id: 7, href: "#", text: "Contact Us" },
-    { id: 5, href: "#", text: "My Account" },
-    { id: 8, href: "#", text: "Login" },
+    { id: 7, href: "#ContactusSection", text: "Contact Us" },
+    { id: 5, href: "#MyAccountPage", text: "My Account" },
+    { id: 8, href: "#LoginPage", text: "Login" },
   ];
   return (
     <nav className="navbar navbar-expand-sm">

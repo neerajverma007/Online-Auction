@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 
 const MyAccount = () => {
   return (
-    <div className="MyAccount">
+    <div className="MyAccount" id="MyAccountPage">
       <div className="container">
         <Breadcrumb>
           <Breadcrumb.Item href="#">Home</Breadcrumb.Item>&#8594;
@@ -386,8 +386,8 @@ const MyAccount = () => {
                 <div className="mybidSection winbidSection">
                   <h4>Winning Bids</h4>
                   <form>
-                    <div class="input-group">
-                      <div class="form-outline">
+                    <div className="input-group">
+                      <div className="form-outline">
                         <input
                           type="search"
                           id="form1"
