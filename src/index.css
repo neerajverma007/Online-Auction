@@ -31,10 +31,12 @@ a:hover {
 
 nav.navbar.navbar-expand-sm {
   background-color: black;
-  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 10;
+  top: 0;
+  height: 90px;
+  padding: 0px 20px;
 }
 
 #collapsibleNavbar a.nav-link,
@@ -147,6 +149,10 @@ a.dropdown-item {
 
 /* Signin Section CSS START */
 
+.form-control:focus {
+  outline: none !important;
+  border: 1px solid #E21818 !important;
+}
 
 
 .Auth-form-container {
@@ -505,11 +511,6 @@ p#Timer {
   color: #BD2000;
 }
 
-/* My Account css end*/
-
-
-/* Winning Bid CSS Start */
-
 .winbidSection .input-group {
   display: inline-block;
   position: relative;
@@ -537,4 +538,29 @@ p#Timer {
   padding: 11px 20px;
 }
 
-/* Winning Bid CSS END */
+/* My Account css end*/
+
+
+/* Buyer Form Bid CSS Start */
+
+textarea#productDescription:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#productPhoto {
+  position: relative;
+}
+
+#productPhoto::-webkit-file-upload-button {
+  background-color: #E21818;
+  color: white;
+  position: absolute;
+  padding: 10px;
+  right: -13px;
+  top: 6px;
+  border-radius: 5px;
+}
+
+
+/* Buyer Form Bid CSS END */
