@@ -62,7 +62,7 @@ function BuyerForm() {
               type="number"
               className="form-control"
               id="reservePrice"
-              maxlength="10"
+              maxLength="10"
               placeholder="Enter reserve price"
               required
             />

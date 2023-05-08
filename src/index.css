@@ -595,7 +595,7 @@ textarea.productDescription:focus {
 }
 
 li.Heading-Content {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .Contactus-Page .contact-info li.Heading h6 {
@@ -609,7 +609,7 @@ li.Heading-Content {
 }
 
 .MapSection {
-  padding: 50px 0px 50px 0px;
+  padding-bottom: 50px;
   border-radius: 20px;
 }
 
@@ -622,6 +622,8 @@ li.Heading-Content {
 
 .MapSection iframe.gmap_iframe {
   border-radius: 20px;
+  width: 100%;
+  height: 250px;
 }
 
 textarea.productDescription {

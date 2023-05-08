@@ -83,7 +83,7 @@ const Signin = () => {
               type="Number"
               className="form-control mt-2"
               placeholder="+91"
-              maxlength="10"
+              maxLength="10"
             />
           </div>
           <div className="form-group mt-3">

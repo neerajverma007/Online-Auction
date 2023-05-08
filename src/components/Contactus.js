@@ -50,7 +50,7 @@ function Contactus() {
                     </label>
                     <textarea
                       className="form-control productDescription"
-                      rows="10"
+                      rows="11"
                       cols="30"
                       placeholder="Enter product description"
                       required
@@ -91,20 +91,17 @@ function Contactus() {
                     <span>directorengg@kipm.edu.in</span>
                   </li>
                 </ul>
+                <div className="MapSection">
+                  <iframe
+                    className="gmap_iframe"
+                    frameBorder="0"
+                    scrolling="no"
+                    src="https://maps.google.com/maps?&&amp;hl=en&amp;q=kipm college&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="MapSection">
-          <h4 className="text-center">Get Direction</h4>
-          <iframe
-            className="gmap_iframe"
-            frameBorder="0"
-            scrolling="no"
-            height="500"
-            width="100%"
-            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=kipm college&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          />
         </div>
       </div>
     </div>
