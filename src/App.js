@@ -10,7 +10,7 @@ import MyAccount from "./components/MyAccount";
 import BuyerForm from "./components/BuyerForm";
 import Contactus from "./components/Contactus";
 import Footer from "./components/Footer";
-import Modal from "./components/Modal";
+// import Modal from "./components/Modal";
 
 function App() {
   return (

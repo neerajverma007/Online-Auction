@@ -16,7 +16,7 @@ function Contactus() {
         </div>
         <div className="Contactus-Page">
           <div className="row">
-            <div className="col-lg-7 col-md-7 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <h4>Get In Touch</h4>
               <div className="Auth-form-content">
                 <form>
@@ -64,7 +64,7 @@ function Contactus() {
                 </form>
               </div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <h4>Contact Info</h4>
               <div className="contact-info">
                 <ul className="list-unstyled">
@@ -72,23 +72,40 @@ function Contactus() {
                     <h6>Address</h6>
                   </li>
                   <li className="Heading-Content">
-                    <span>
-                      KIPM Technical Campus BL 1 & 2 Sector-9 GIDA, Gorakhpur,
-                      Uttar Pradesh, India, Pin - 273209
-                    </span>
+                    <p>
+                      <span>
+                        <i class="fas fa-location-arrow"></i>
+                      </span>
+                      D-8, Noida Sector 3, Pincode:201301
+                    </p>
                   </li>
                   <li className="Heading">
                     <h6>Phone</h6>
                   </li>
                   <li className="Heading-Content">
-                    <span>+91-8009902933-40</span>
-                    <span>+91-9151005261-70</span>
+                    <p>
+                      <span>
+                        <i class="fas fa-phone-alt"></i>
+                      </span>
+                      +91 8318464600
+                    </p>
+                    <p>
+                      <span>
+                        <i class="fas fa-phone-alt"></i>
+                      </span>
+                      +91 7905782562
+                    </p>
                   </li>
                   <li className="Heading">
                     <h6>Email Address</h6>
                   </li>
                   <li className="Heading-Content">
-                    <span>directorengg@kipm.edu.in</span>
+                    <p>
+                      <span>
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      igravel@auction.co.in
+                    </p>
                   </li>
                 </ul>
                 <div className="MapSection">

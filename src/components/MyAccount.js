@@ -9,11 +9,13 @@ const MyAccount = () => {
   return (
     <div className="MyAccount" id="MyAccountPage">
       <div className="container">
-        <Breadcrumb>
-          <Breadcrumb.Item href="#">Home</Breadcrumb.Item>&#8594;
-          <Breadcrumb.Item href="#">My Account</Breadcrumb.Item>&#8594;
-          <Breadcrumb.Item active>My Bids</Breadcrumb.Item>
-        </Breadcrumb>
+        <div className="Breadcrumb">
+          <Breadcrumb>
+            <Breadcrumb.Item href="#">Home</Breadcrumb.Item>&#8594;
+            <Breadcrumb.Item href="#">My Account</Breadcrumb.Item>&#8594;
+            <Breadcrumb.Item active>My Bids</Breadcrumb.Item>
+          </Breadcrumb>
+        </div>
         <div className="MyBidsTab">
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-4 col-12">

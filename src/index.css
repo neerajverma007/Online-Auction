@@ -598,7 +598,7 @@ textarea.productDescription:focus {
 
 .Contactus-Page .Auth-form-content {
   padding: 0px;
-  margin-right: 100px;
+  margin-right: 40px;
 }
 
 .Contactus-Page .contact-info {
@@ -611,12 +611,14 @@ li.Heading-Content {
 
 .Contactus-Page .contact-info li.Heading h6 {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.Contactus-Page .contact-info li.Heading-Content span {
-  color: #787878;
+.Contactus-Page .contact-info li.Heading-Content p {
+  color: black;
   font-size: 20px;
+  margin-bottom: 0px;
+  line-height: 40px;
 }
 
 .MapSection {
@@ -641,13 +643,22 @@ textarea.productDescription {
   resize: none;
 }
 
+.Heading-Content i.fas {
+  color: #E21818;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
 /* Contact Us CSS END */
 
 
 
 /* Footer CSS START */
 .footerSection {
-  background-color: black;
+  background-image: url(/public/images/footerimage.jpg);
+  width: 100%;
+  height: 500px;
+  content: "";
   color: white;
   padding: 50px;
   margin-top: 50px;
@@ -757,7 +768,7 @@ img.footerLogo {
 
 .CopyrightSection {
   padding: 20px;
-  background-color: red;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -767,5 +778,6 @@ img.footerLogo {
   font-weight: 500;
   font-size: 16px;
 }
+
 
 /* Copyright CSS END */
