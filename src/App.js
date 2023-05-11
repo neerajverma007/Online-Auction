@@ -10,19 +10,21 @@ import MyAccount from "./components/MyAccount";
 import BuyerForm from "./components/BuyerForm";
 import Contactus from "./components/Contactus";
 import Footer from "./components/Footer";
-// import Modal from "./components/Modal";
+// import ProductSell from "./components/ProductSell";
+import Aboutus from "./components/Aboutus";
 
 function App() {
   return (
     <div>
       <NavbarComp />
       <Heros />
-      {/* <Modal /> */}
       <Signin />
       <CardStructure />
+      {/* <ProductSell /> */}
       <MyAccount />
       <BuyerForm />
       <Contactus />
+      <Aboutus />
       <Footer />
     </div>
   );

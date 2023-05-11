@@ -88,20 +88,36 @@ const MyAccount = () => {
                           <Card>
                             <Card.Img src="images/card_one.jpg" />
                             <Card.Body>
-                              <Card.Title>Heading 1</Card.Title>
-                              <Card.Text>
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                              </Card.Text>
-                              <div className="Cardbidbtn">
-                                <span>250 Bids</span>
-                                <Button className="Bidbtn">Submit a Bid</Button>
+                              <h4 className="card-title">Heading 1</h4>
+                              <div className="bidstimer">
+                                <p className="peoplebids">
+                                  <span>
+                                    <i class="fas fa-gavel"></i>
+                                  </span>
+                                  250 Bids
+                                </p>
+                                <span className="card-timer">
+                                  5hrs:30min:15sec
+                                </span>
+                              </div>
+                              <div className="cardtext">
+                                <span>
+                                  Some quick example text to build on the card
+                                  title and make up the bulk of the card's
+                                  content.
+                                </span>
+                              </div>
+                              <div className="PriceSubmit">
+                                <div className="cardRate">
+                                  <span>&#8377;200</span>
+                                </div>
+                                <div className="Cardbidbtn">
+                                  <Button className="Bidbtn">
+                                    Submit a Bid
+                                  </Button>
+                                </div>
                               </div>
                             </Card.Body>
-                            <div className="cardRate">
-                              <span>&#8377;200</span>
-                            </div>
                           </Card>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-12">

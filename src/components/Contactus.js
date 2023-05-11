@@ -30,6 +30,7 @@ function Contactus() {
                       id="name"
                       name="name"
                       required
+                      placeholder="Full Name"
                     />
                   </div>
                   <div className="mb-3">
@@ -42,6 +43,7 @@ function Contactus() {
                       id="email"
                       name="email"
                       required
+                      placeholder="abc@gmail.com"
                     />
                   </div>
                   <div className="mb-3">
