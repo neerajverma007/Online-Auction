@@ -112,9 +112,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -148,9 +146,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -184,9 +180,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -220,9 +214,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -256,9 +248,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -292,9 +282,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -332,9 +320,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -368,9 +354,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -404,9 +388,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -440,9 +422,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -476,9 +456,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
@@ -512,9 +490,7 @@ const MyAccount = () => {
                                   <span>&#8377;200</span>
                                 </div>
                                 <div className="Cardbidbtn">
-                                  <Button className="Bidbtn">
-                                    Submit a Bid
-                                  </Button>
+                                  <Button className="Bidbtn">Update Bid</Button>
                                 </div>
                               </div>
                             </Card.Body>
