@@ -7,7 +7,7 @@ function NavbarComp() {
     { id: 1, href: "#HomePage", text: "Home" },
     { id: 2, href: "#AuctionPage", text: "Auction" },
     { id: 4, href: "#", text: "Services" },
-    { id: 6, href: "#", text: "About Us" },
+    { id: 6, href: "#aboutustab", text: "About Us" },
     { id: 7, href: "#ContactusSection", text: "Contact Us" },
     { id: 5, href: "#MyAccountPage", text: "My Account" },
     { id: 8, href: "#LoginPage", text: "Login" },

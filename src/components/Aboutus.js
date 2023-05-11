@@ -6,7 +6,7 @@ import { Breadcrumb } from "react-bootstrap";
 
 function Aboutus() {
   return (
-    <div className="Aboutus-Section">
+    <div className="Aboutus-Section" id="aboutustab">
       <div className="container">
         <div className="Breadcrumb">
           <Breadcrumb>

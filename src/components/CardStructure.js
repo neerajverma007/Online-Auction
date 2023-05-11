@@ -19,7 +19,7 @@ const CardStructure = () => {
       <div className="Cardcontent-Wrapper">
         <Container>
           <Row>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_one.jpg" />
                 <Card.Body>
@@ -31,7 +31,7 @@ const CardStructure = () => {
                       </span>
                       123 Bids
                     </p>
-                    <span className="card-timer">0hrs:0min:0sec</span>
+                    <span className="card-timer">0min:0sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -47,7 +47,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_two.jpg" />
                 <Card.Body>
@@ -59,7 +59,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -78,7 +78,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_three.jpg" />
                 <Card.Body>
@@ -90,7 +90,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -109,7 +109,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_four.jpg" />
                 <Card.Body>
@@ -121,7 +121,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -140,7 +140,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_five.jpg" />
                 <Card.Body>
@@ -152,7 +152,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -171,7 +171,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_six.jpg" />
                 <Card.Body>
@@ -183,7 +183,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -202,7 +202,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_seven.jpg" />
                 <Card.Body>
@@ -214,7 +214,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
@@ -233,7 +233,7 @@ const CardStructure = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-lg-3 col-md-3 col-sm-6 col-12">
+            <Col className="col-lg-3 col-md-6 col-sm-6 col-12">
               <Card>
                 <Card.Img src="images/card_eight.jpg" />
                 <Card.Body>
@@ -245,7 +245,7 @@ const CardStructure = () => {
                       </span>
                       250 Bids
                     </p>
-                    <span className="card-timer">5hrs:30min:15sec</span>
+                    <span className="card-timer">30min:15sec</span>
                   </div>
                   <div className="cardtext">
                     <span>
