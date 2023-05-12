@@ -1031,6 +1031,7 @@ img.footerLogo {
   color: black !important;
   padding: 50px;
   box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  border-radius: 20px;
 }
 
 .slider-image img {
@@ -1085,9 +1086,15 @@ img.footerLogo {
   padding-left: 30px;
 }
 
+.slider-content button.Bidbtn:hover {
+  background-color: #BD2000;
+}
+
 .slider-content button.Bidbtn {
   padding: 15px 30px;
   width: 100%;
+  background-color: #E21818;
+  color: white;
 }
 
 .slider-content .Cardbidbtn {

@@ -28,12 +28,12 @@ function ProductSell() {
                 </div>
                 <div className="slider-content">
                   <div className="slider-image">
-                    <img src="images/card_two.jpg" alt="product-image" />
+                    <img src="images/card_one.jpg" alt="product-image" />
                   </div>
                 </div>
                 <div className="slider-content">
                   <div className="slider-image">
-                    <img src="images/card_three.jpg" alt="product-image" />
+                    <img src="images/card_one.jpg" alt="product-image" />
                   </div>
                 </div>
               </Slider>
@@ -52,15 +52,15 @@ function ProductSell() {
               <ul className="price-table list-unstyled">
                 <li className="header">
                   <span className="details">Current Price</span>
-                  <h5 className="info">&#8377;700.00</h5>
+                  <h5 className="info">&#8377;70,000</h5>
                 </li>
                 <li className="header">
                   <span className="details">Buyer's Premium</span>
                   <h5 className="info">10.00%</h5>
                 </li>
                 <li className="header">
-                  <span className="details">Bid Increment (US)</span>
-                  <h5 className="info">&#8377;50.00</h5>
+                  <span className="details">Bid Increment (IN)</span>
+                  <h5 className="info">&#8377;5000</h5>
                 </li>
               </ul>
               <div className="amountpay">
@@ -73,7 +73,7 @@ function ProductSell() {
                   />
                 </div>
                 <div className="Cardbidbtn">
-                  <Button className="Bidbtn">Pay &#8377;700</Button>
+                  <Button className="Bidbtn">PAY</Button>
                 </div>
               </div>
             </div>

@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import NavbarComp from "./components/NavbarComp";
 import Heros from "./components/Heros";
-import Signin from "./components/Signin";
 import CardStructure from "./components/CardStructure";
 import MyAccount from "./components/MyAccount";
 // import BuyerForm from "./components/BuyerForm";
