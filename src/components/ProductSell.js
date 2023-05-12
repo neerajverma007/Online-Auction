@@ -45,9 +45,10 @@ function ProductSell() {
               <p>
                 Vintage cameras can be worth a lot of money depending on the
                 brand, type, condition and popularity. Mass-produced cameras
-                like a Kodak Instamatic camera might sell for &#8377;10 or
-                &#8377;25, while a rare camera from a well-known brand like
-                Leica can go for thousands or even millions of dollars.
+                like a The Breeze Camera IX Instamatic camera might sell for
+                &#8377;100,000 or &#8377;2,500,000 while a rare camera from a
+                well-known brand like Leica can go for thousands or even
+                millions of dollars.
               </p>
               <ul className="price-table list-unstyled">
                 <li className="header">
