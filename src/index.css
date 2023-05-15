@@ -104,6 +104,10 @@ a.dropdown-item {
   color: white;
 }
 
+.avtar a.dropdown-toggle-grey:hover {
+  color: #E21818;
+}
+
 .avtar i.fas.fa-chevron-down {
   padding-left: 5px;
   font-size: 16px;
