@@ -4,7 +4,7 @@ import React from "react";
 
 function BuyerForm() {
   return (
-    <div className="Auth-form-container">
+    <div className="Auth-form-container Sellingform">
       <form className="Auth-form">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title mb-4">Sell Product</h3>

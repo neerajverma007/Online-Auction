@@ -74,7 +74,7 @@ function ProductSell() {
                   />
                 </div>
                 <div className="Cardbidbtn">
-                  <Button className="Bidbtn">PAY</Button>
+                  <Button className="Bidbtn">Submit Bid</Button>
                 </div>
               </div>
             </div>

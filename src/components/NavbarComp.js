@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import Signin from "./Signin";
 
@@ -12,8 +13,16 @@ function NavbarComp() {
     { id: 4, href: "#", text: "Services" },
     { id: 6, href: "#aboutustab", text: "About Us" },
     { id: 7, href: "#ContactusSection", text: "Contact Us" },
-    { id: 5, href: "#MyAccountPage", text: "My Account" },
-    { id: 8, href: "#LoginPage", text: "Login", handleClick: handleLogin },
+    // {
+    //   id: 8,
+    //   href: "#LoginPage",
+    //   text: "Login",
+    //   handleClick: handleLogin,
+    //   dropDownItems: [
+    //     { id: 5, href: "#MyAccountPage", text: "My Account" },
+    //     { id: 9, handleClick: () => alert("Logout Func"), text: "Logout" },
+    //   ],
+    // },
   ];
 
   function handleLogin() {
@@ -44,6 +53,42 @@ function NavbarComp() {
                 handleClick={handleClick ?? (() => {})}
               />
             ))}
+            {2 === 2 ? (
+              <li className="nav-item">
+                <div className="avtar d-flex">
+                  <img
+                    className="rounded-circle"
+                    src="images/user.jpg"
+                    alt="avatar-image"
+                  />
+                  <div className="dropdown">
+                    <a
+                      href="#"
+                      className="dropdown-toggle-grey"
+                      data-bs-toggle="dropdown"
+                    >
+                      Neeraj<i className="fas fa-chevron-down"></i>
+                    </a>
+                    <div className="dropdown-menu">
+                      <a href="#MyAccountPage" className="dropdown-item">
+                        My Account
+                      </a>
+                      <a href="#" className="dropdown-item">
+                        Logout
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            ) : (
+              <li className="nav-item">
+                <NavLink
+                  href={"#login"}
+                  text="Login"
+                  handleClick={handleLogin}
+                />
+              </li>
+            )}
           </ul>
         </div>
       </div>

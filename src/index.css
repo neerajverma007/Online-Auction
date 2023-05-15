@@ -36,7 +36,7 @@ nav.navbar.navbar-expand-sm {
   z-index: 10;
   top: 0;
   height: 90px;
-  padding: 0px 20px;
+  padding: 0px 50px;
 }
 
 #collapsibleNavbar a.nav-link,
@@ -56,7 +56,7 @@ a.navbar-brand {
 }
 
 #collapsibleNavbar li {
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .underlinks li {
@@ -80,6 +80,52 @@ a.navbar-brand {
 
 a.dropdown-item {
   color: white;
+}
+
+.avtar img.rounded-circle {
+  width: 40px;
+  object-fit: cover;
+}
+
+.navbar ul.navbar-nav {
+  align-items: center;
+}
+
+.avtar .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.avtar a.dropdown-toggle-grey {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.avtar i.fas.fa-chevron-down {
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.avtar .dropdown-menu.show {
+  background-color: black;
+  color: white;
+  top: 40px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.avtar .dropdown-menu.show a.dropdown-item:hover {
+  background-color: #E21818;
+  color: white;
+  border-radius: 5px;
+}
+
+.avtar .dropdown-menu.show a.dropdown-item {
+  padding: 5px 10px;
 }
 
 /* Header Section Css End */
@@ -136,7 +182,9 @@ a.dropdown-item {
 .btn.Registerbtn:active {
   box-shadow: none;
   outline: none;
-  border: none;
+  border: 1px solid #E21818 !important;
+  background-color: #BD2000 !important;
+  color: white !important;
 }
 
 .btn.Registerbtn:hover {
@@ -273,9 +321,11 @@ a.dropdown-item {
 
 .submitbtn .btn:focus,
 .submitbtn .btn:active {
+  background-color: #BD2000 !important;
+  color: white !important;
   box-shadow: none;
   outline: none;
-  border: none;
+  border: 1px solid #E21818 !important;
 }
 
 .form-text p {
@@ -661,6 +711,10 @@ textarea.productDescription:focus {
   right: -13px;
   top: 6px;
   border-radius: 5px;
+}
+
+.Sellingform {
+  position: relative;
 }
 
 
@@ -1088,6 +1142,10 @@ img.footerLogo {
 
 .slider-content button.Bidbtn:hover {
   background-color: #BD2000;
+}
+
+.slider-content button.Bidbtn:focus {
+  border: 1px solid #BD2000 !important;
 }
 
 .slider-content button.Bidbtn {
